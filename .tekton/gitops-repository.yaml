@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: full-woodpecker-python-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/full-woodpecker-python-gitops
